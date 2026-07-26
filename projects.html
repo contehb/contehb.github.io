@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projects by Baimba Conteh - Portfolio website, EMR optimization, and database systems with ethical and spiritual integration">
     <title>Projects | Baimba Conteh</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+    <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
             <div class="nav-brand"><a href="index.html">Baimba Conteh</a></div>
@@ -17,12 +20,14 @@
                 <li><a href="about.html" class="nav-link">About</a></li>
                 <li><a href="skills.html" class="nav-link">Skills</a></li>
                 <li><a href="projects.html" class="nav-link active">Projects</a></li>
+                <li><a href="week4.html" class="nav-link">Week 4</a></li>
                 <li><a href="contact.html" class="nav-link">Contact</a></li>
             </ul>
             <div class="hamburger"><span class="bar"></span><span class="bar"></span><span class="bar"></span></div>
         </div>
     </nav>
 
+    <!-- Page Header -->
     <section class="page-header">
         <div class="container">
             <h1>My Projects</h1>
@@ -30,53 +35,118 @@
         </div>
     </section>
 
+    <!-- Projects Content -->
     <section class="projects-section">
         <div class="container">
+            <p style="max-width: 820px; margin: 0 auto 3rem; text-align: center; font-size: 1.15rem; color: var(--text-light); line-height: 1.8;">
+                Each project below pairs a real technical challenge with the principle that guided the decision behind it.
+                Hover any card to lift it; every entry lists the stack used, the measurable outcome, and the value it was built on.
+            </p>
+
             <div class="projects-grid">
+                <!-- Project 1 -->
                 <div class="project-card">
                     <div class="project-content">
-                        <h3>Professional Portfolio Website</h3>
+                        <h3><i class="fas fa-globe" style="color: var(--primary-color); margin-right: 0.5rem;"></i>Professional Portfolio Website</h3>
                         <p>Designed and deployed a fully responsive, accessible personal portfolio website to showcase IT skills and professional journey.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">HTML5</span><span class="tech-tag">CSS3</span><span class="tech-tag">JavaScript</span><span class="tech-tag">GitHub Pages</span>
                         </div>
+                        <p style="margin: 1rem 0 0; padding-left: 1rem; border-left: 3px solid var(--primary-color); color: var(--text-dark); font-weight: 500;">
+                            <strong>Outcome:</strong> A live, keyboard-navigable site with screen-reader labels on every control, deployed to GitHub Pages and reachable worldwide.
+                        </p>
                         <p class="project-spiritual"><strong>Spiritual Integration:</strong> This project was an exercise in stewardship. Ensuring web accessibility (WCAG standards) was a direct application of the principle of inclusion and loving my neighbor.</p>
                     </div>
                 </div>
 
+                <!-- Project 2 -->
                 <div class="project-card">
                     <div class="project-content">
-                        <h3>EMR System Optimization</h3>
+                        <h3><i class="fas fa-heartbeat" style="color: var(--primary-color); margin-right: 0.5rem;"></i>EMR System Optimization</h3>
                         <p>Audited and reorganized patient filing systems at Partners In Health, resolving data synchronization errors and implementing stricter access controls.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">EMR Software</span><span class="tech-tag">Data Verification</span><span class="tech-tag">Excel</span>
                         </div>
+                        <p style="margin: 1rem 0 0; padding-left: 1rem; border-left: 3px solid var(--primary-color); color: var(--text-dark); font-weight: 500;">
+                            <strong>Outcome:</strong> Chart retrieval improved by 20%, and need-to-know access controls now govern every patient-record view.
+                        </p>
                         <p class="project-spiritual"><strong>Spiritual Integration:</strong> Protecting patient data is a sacred trust. This reinforced my guiding principle of integrity, acting as a defender of human dignity.</p>
                     </div>
                 </div>
 
+                <!-- Project 3 -->
                 <div class="project-card">
                     <div class="project-content">
-                        <h3>Database Management System</h3>
+                        <h3><i class="fas fa-database" style="color: var(--primary-color); margin-right: 0.5rem;"></i>Database Management System</h3>
                         <p>Developed a normalized relational database to track IT hardware inventory, utilizing stored procedures for automated low-stock alerts.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">SQL Server</span><span class="tech-tag">SQL</span><span class="tech-tag">ERD</span>
                         </div>
+                        <p style="margin: 1rem 0 0; padding-left: 1rem; border-left: 3px solid var(--primary-color); color: var(--text-dark); font-weight: 500;">
+                            <strong>Outcome:</strong> A normalized schema whose stored-procedure alerts flag low stock before it ever becomes downtime.
+                        </p>
                         <p class="project-spiritual"><strong>Spiritual Integration:</strong> Creating order out of chaos is a divine principle. The diligence required taught me patience and the value of "small and simple things" (Alma 37:6).</p>
                     </div>
+                </div>
+            </div>
+
+            <!-- Closing Call to Action -->
+            <div class="mission-card" style="margin-top: 4rem;">
+                <i class="fas fa-quote-left"></i>
+                <p class="mission-text">"Every line of code is a small act of stewardship. I build to protect, to include, and to serve — and I measure success by the dignity it preserves."</p>
+                <i class="fas fa-quote-right"></i>
+                <div class="hero-buttons" style="justify-content: center; margin-top: 2rem;">
+                    <a href="week4.html" class="btn btn-primary"><i class="fas fa-tools"></i> See Week 4 Refinements</a>
+                    <a href="contact.html" class="btn btn-secondary"><i class="fas fa-paper-plane"></i> Start a Project</a>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Footer -->
     <footer class="footer">
         <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Baimba Conteh</h3>
+                    <p>IT Professional & Tech Enthusiast</p>
+                    <p>Ensign College - Class of 2027</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/baimba-conteh-b726b120a/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100072118460058" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.tiktok.com/@baimba.conteh8" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.instagram.com/baimba172" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/Baimba-ui" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="week4.html">Week 4</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:contehbaimba910@gmail.com">contehbaimba910@gmail.com</a></li>
+                        <li><i class="fas fa-university"></i> <a href="mailto:bconteh@byupathway.edu">bconteh@byupathway.edu</a></li>
+                        <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/23231363736" target="_blank">+232 31 363736</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i> Koidu City, Sierra Leone</li>
+                    </ul>
+                </div>
+            </div>
             <div class="footer-bottom">
                 <p>&copy; 2026 Baimba Conteh. Built with faith and code.</p>
                 <p class="motto"><strong>IT CAN ONLY BE GOD 🙏 | LEARN BEFORE YOU EARN 💻</strong></p>
             </div>
         </div>
     </footer>
+
     <script src="js/main.js"></script>
 </body>
 </html>
