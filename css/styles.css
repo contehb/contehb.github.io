@@ -126,3 +126,176 @@ ul { list-style: none; }
     .hero-image img { max-width: 300px; margin: 0 auto; }
     .hero-buttons { flex-direction: column; }
 }
+
+/* =========================================================
+   WEEK 5 ADDITIONS — Usability Report Table & Mental Map
+   Additive only: every rule above this comment is unchanged.
+   ========================================================= */
+
+/* --- Usability Testing Report Table --- */
+.usability-table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 14px;
+    box-shadow: var(--shadow-lg);
+    background: var(--bg-white);
+    border: 1px solid var(--border-color);
+    margin-top: 1rem;
+}
+.usability-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 720px;
+    font-size: 0.95rem;
+}
+.usability-table thead th {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: #fff;
+    text-align: left;
+    padding: 1rem 1.25rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+}
+.usability-table thead th:first-child { border-top-left-radius: 14px; }
+.usability-table thead th:last-child  { border-top-right-radius: 14px; }
+.usability-table tbody td {
+    padding: 1rem 1.25rem;
+    color: var(--text-dark);
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: top;
+    line-height: 1.6;
+    transition: background 0.25s ease;
+}
+.usability-table tbody tr:nth-child(even) td { background: var(--bg-light); }
+.usability-table tbody tr:hover td { background: #e0f2fe; }
+.usability-table tbody tr:last-child td { border-bottom: none; }
+
+.severity-badge {
+    display: inline-block;
+    padding: 0.3rem 0.85rem;
+    border-radius: 999px;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.severity-badge.high   { background: #fee2e2; color: #b91c1c; border: 1px solid #fecaca; }
+.severity-badge.medium { background: #fef3c7; color: #b45309; border: 1px solid #fde68a; }
+.severity-badge.low    { background: #d1fae5; color: #047857; border: 1px solid #a7f3d0; }
+
+/* --- Spiritual–Professional Mental Map --- */
+.mental-map {
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    padding: 2.5rem 1.5rem 1.5rem;
+    border-radius: 18px;
+}
+.mental-map::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(420px 320px at 50% 0%, rgba(37, 99, 235, 0.12), transparent 70%),
+        radial-gradient(360px 280px at 85% 90%, rgba(245, 158, 11, 0.10), transparent 70%);
+    pointer-events: none;
+    z-index: 0;
+}
+.mental-map > * { position: relative; z-index: 1; }
+
+.mental-map .map-center {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    border-radius: 18px;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: #fff;
+    box-shadow: var(--shadow-lg);
+    position: relative;
+    overflow: hidden;
+}
+.mental-map .map-center::after {
+    content: "";
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.35), transparent 70%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: mapPulse 4s ease-in-out infinite;
+}
+.mental-map .map-center i { font-size: 2.4rem; position: relative; z-index: 1; }
+.mental-map .map-center span {
+    position: relative;
+    z-index: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 1.35rem;
+    line-height: 1.3;
+}
+@keyframes mapPulse {
+    0%, 100% { transform: translate(-50%, -50%) scale(0.85); opacity: 0.55; }
+    50%      { transform: translate(-50%, -50%) scale(1.15); opacity: 0.9; }
+}
+
+.mental-map .map-strand {
+    background: var(--bg-white);
+    border-radius: 14px;
+    padding: 1.75rem 1.5rem 1.5rem;
+    box-shadow: var(--shadow);
+    border-top: 4px solid var(--primary-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+.mental-map .map-strand:hover { transform: translateY(-8px); box-shadow: var(--shadow-lg); }
+.mental-map .map-strand i {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    color: #fff;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+}
+.mental-map .map-strand strong {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.15rem;
+    color: var(--text-dark);
+}
+.mental-map .map-strand p { color: var(--text-light); font-size: 0.92rem; line-height: 1.6; }
+
+/* Five distinct fibers of one rope */
+.mental-map .strand-1 { border-top-color: #2563eb; }
+.mental-map .strand-1 i { background: linear-gradient(135deg, #2563eb, #1e40af); }
+.mental-map .strand-2 { border-top-color: #f59e0b; }
+.mental-map .strand-2 i { background: linear-gradient(135deg, #f59e0b, #d97706); }
+.mental-map .strand-3 { border-top-color: #10b981; }
+.mental-map .strand-3 i { background: linear-gradient(135deg, #10b981, #047857); }
+.mental-map .strand-4 { border-top-color: #0891b2; }
+.mental-map .strand-4 i { background: linear-gradient(135deg, #0891b2, #0e7490); }
+.mental-map .strand-5 { border-top-color: #ef4444; }
+.mental-map .strand-5 i { background: linear-gradient(135deg, #ef4444, #b91c1c); }
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    .mental-map .map-center::after { animation: none; }
+    .mental-map .map-strand { transition: none; }
+    html { scroll-behavior: auto; }
+}
