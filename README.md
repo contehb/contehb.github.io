@@ -6,7 +6,7 @@
 [![Status](https://img.shields.io/badge/Status-Live-10b981)](https://contehb.github.io)
 [![Class of](https://img.shields.io/badge/Class_of-2027-1e40af)](https://contehb.github.io/about.html)
 [![GPA](https://img.shields.io/badge/GPA-4.0-f59e0b)](https://contehb.github.io/about.html)
-[![Week 5](https://img.shields.io/badge/Week_5-Integration_%26_Reflection-0891b2)](https://contehb.github.io/week5.html)
+[![Week 6](https://img.shields.io/badge/Week_6-Finalization_%26_Presentation-10b981)](https://contehb.github.io/week6.html)
 [![HTML5](https://img.shields.io/badge/HTML5-semantic-E34F26?logo=html5&logoColor=white)](#)
 [![CSS3](https://img.shields.io/badge/CSS3-responsive-1572B6?logo=css3&logoColor=white)](#)
 [![JavaScript](https://img.shields.io/badge/JavaScript-vanilla-F7DF1E?logo=javascript&logoColor=black)](#)
@@ -26,6 +26,7 @@ This repository holds the complete, hand-built portfolio of **Baimba Conteh** �
 - [Pages](#pages)
 - [Week 4 Additions](#week-4-additions)
 - [Week 5 Additions](#week-5-additions)
+- [Week 6 Additions](#week-6-additions)
 - [Tech Stack](#tech-stack)
 - [Design & Interaction](#design--interaction)
 - [Run It Locally](#run-it-locally)
@@ -50,7 +51,7 @@ A multi-page professional portfolio that documents three things at once:
 
 1. **Technical capability** — web development, system administration, database management, and EMR data work, shown through real projects and verified certifications.
 2. **Professional record** — a résumé, role history (Partners In Health, Statistics Sierra Leone, Cornerstone Computer Training Institute), and project case studies with measurable outcomes.
-3. **Guiding principles** — faith in Jesus Christ, unwavering integrity, and continuous learning as stewardship, woven into the project narratives and deepened week over week through structured reflection.
+3. **Guiding principles** — faith in Jesus Christ, unwavering integrity, and continuous learning as stewardship, woven into the project narratives and deepened week over week through structured reflection, culminating in a forward-looking action plan.
 
 The intent is a portfolio that reads as one coherent person growing over time, not a stack of disconnected sections.
 
@@ -59,7 +60,7 @@ The intent is a portfolio that reads as one coherent person growing over time, n
 ```
 contehb.github.io/            # project root (live at contehb.github.io)
 ├── css/
-│   └── styles.css            # single hand-written stylesheet (design system + responsive rules + Week 5 component styles)
+│   └── styles.css            # single hand-written stylesheet (design system + responsive + Week 5 component styles)
 ├── images/
 │   └── profile.jpg           # professional headshot
 ├── js/
@@ -70,6 +71,7 @@ contehb.github.io/            # project root (live at contehb.github.io)
 ├── projects.html             # three project case studies with outcomes + spiritual integration
 ├── week4.html                # Week 4 — video response, principles, refinement report, ethical alternative
 ├── week5.html                # Week 5 — Christlike attributes, usability report, ethical reflection, mental map
+├── week6.html                # Week 6 — action plan, final portfolios, reflective essay, peer-review report
 ├── contact.html              # direct channels + Formspree message form
 └── README.md                 # this file
 ```
@@ -83,10 +85,11 @@ contehb.github.io/            # project root (live at contehb.github.io)
 | Skills | `skills.html` | Technical skills, certifications & education, spiritual skills |
 | Projects | `projects.html` | Three case studies: portfolio site, EMR optimization, database system |
 | Week 4 | `week4.html` | Embedded video response, guiding principles, spiritual materials, refinement report, ethical-dilemma alternative, temple reflection |
-| Week 5 | `week5.html` | Christlike attributes & warning signs, usability-testing report, ethical-dilemma reflection, spiritual–professional mental map |
+| Week 5 | `week5.html` | Christlike attributes & warning signs, usability-testing report, ethical-dilemma reflection, spiritual–professional mental map, references |
+| Week 6 | `week6.html` | Action plan, final spiritual & professional portfolios, reflective essay, peer-review report, completion checklist, references |
 | Contact | `contact.html` | Email, WhatsApp, location, and a working message form |
 
-Every page shares one navigation bar (seven links) and one footer, so any page links to every other page in a single click.
+Every page shares one navigation bar (eight links) and one footer, so any page links to every other page in a single click.
 
 ## Week 4 Additions
 
@@ -101,14 +104,29 @@ Week 4 expanded and deepened the portfolio and integrated a refined project. The
 
 ## Week 5 Additions
 
-Week 5 refines the design and deepens the integration of spiritual insight into both the personal and professional narrative. The new `week5.html` page carries four deliverables mapped to that week's three tasks:
+Week 5 refined the design and deepened the integration of spiritual insight. The `week5.html` page carries four deliverables mapped to that week's three tasks:
 
-- **Task 1 — Christlike attributes & personal warning signs.** A comprehensive review documenting how patience, humility, and charity are integrated into daily life and work, alongside three named personal warning signs (procrastination disguised as "waiting for inspiration," isolation when overwhelmed, and pride in technical knowledge), each paired with a concrete realignment strategy. This review is written to guide the finalization of the portfolio.
-- **Task 2a — Usability-testing report.** A structured report of testing conducted via peer navigation, mobile responsiveness checks, and a keyboard/accessibility audit. It lists each issue found with a severity rating (High / Medium / Low) and the fix implemented, plus the measured impact on usability and accessibility.
-- **Task 2b — Ethical-dilemma reflection.** A forward-looking narrative revisiting the EMR access dilemma, stating a personal view, and explaining how similar situations will be handled in future IT work — and what the multi-week exercise taught about ethical challenges in the field.
-- **Task 3 — Spiritual–professional integration (mental map).** A reflective piece built around a visual mental map: a central node (Jesus Christ) with five radiating strands (Faith, Integrity, Stewardship, Service, Patience), accompanied by a narrative on how faith authors — not merely accompanies — professional decisions. Anchored in Luke 21:19, *"In your patience possess ye your souls,"* and Elder Bednar's rope analogy.
+- **Task 1 — Christlike attributes & personal warning signs**, each paired with a concrete realignment strategy.
+- **Task 2a — Usability-testing report** with severity ratings (High / Medium / Low), fixes, and impact.
+- **Task 2b — Ethical-dilemma reflection** (forward-looking, future-work application).
+- **Task 3 — Spiritual–professional integration (mental map)** — a central node (Jesus Christ) with five radiating strands, plus a reflective narrative.
+- A **References** section in APA style.
 
-The "Week 5" link was added to the navigation and footer of every page so the new content is reachable site-wide, and the stylesheet was extended (additively) with the styles these new components require — see [Design & Interaction](#design--interaction).
+The stylesheet was extended additively that week with the usability-table and mental-map component styles (severity chips, row hover, breathing center node, reduced-motion guard).
+
+## Week 6 Additions
+
+Week 6 culminates the work into a coherent narrative and a forward-looking plan. The new `week6.html` page carries the full Week 6 submission set:
+
+- **Detailed action plan** — spiritual cadence (daily prayer + scripture, weekly sacrament + service, monthly temple + warning-sign check-in) and professional milestones (0–6 months, 6–18 months, 2–5 years) with a quarterly self-audit measure.
+- **Final Spiritual Progression Portfolio** — the integrated record of the three guiding principles and compiled materials, cross-linked to Weeks 4–5.
+- **Final Professional Growth Portfolio** — the complete IT identity (résumé, certifications, three case-study projects), cross-linked to Home/Skills/Projects, with an explicit alignment check against initial goals.
+- **Reflective essay** — assessing the portfolio's alignment with initial goals and the evolution of those goals (from proof-of-skill to proof-of-stewardship).
+- **Peer-review report** — feedback given in two reviews (Rafael Sousa; Jose Marroquin), feedback received, and how it was implemented (inline video embed; standardized navigation/footer; References section; corrected GitHub link).
+- **Completion checklist** — action plan, both final portfolios, essay, peer reviews, Course Evaluation, and PowerPoint presentation.
+- A **References** section in APA style.
+
+The "Week 6" link was added to the navigation and footer of every page (eight links total), and the footer GitHub icon was corrected to the working account, `github.com/contehb`. The **PowerPoint presentation** and the **Course Evaluation** are submitted separately in Canvas, per the assignment.
 
 ## Tech Stack
 
@@ -127,13 +145,13 @@ The site is built to feel responsive to the person using it, not to sit as a fla
 
 - **Scroll-aware navbar** — the top bar deepens its shadow once the visitor scrolls, giving a sense of place.
 - **Hover feedback** — cards lift and bloom a larger shadow on hover; buttons shift color and rise; social icons lift and recolor; usability-table rows warm to a soft tint under the cursor.
-- **Active-link underline** — the current page is marked in the menu, both by a hard-coded class and by `main.js` reading the URL, so navigation always shows where you are.
+- **Active-link underline** — the current page is marked in the menu, both by a hard-coded class and by `main.js` reading the URL.
 - **Mobile navigation** — a hamburger menu slides the nav in on small screens and closes on link tap.
-- **Type contrast** — bold Montserrat headings against light Roboto body text create rhythm and hierarchy; the Week 5 mental map uses three clear tiers (large center label, medium strand titles, light strand body).
-- **Layered surfaces** — alternating white and tinted section backgrounds, gradient page headers, a soft hero wash, and a radial ambient wash behind the mental map keep the eye moving down the page.
-- **Living focal point** — the mental map's center node carries a slow, contained breathing glow behind its label, drawing the eye to the spiritual center of the composition.
-- **Semantic color** — the usability report uses red / amber / green severity chips tuned to the site's existing palette, so status reads instantly without a second color language.
-- **Accessibility** — descriptive `alt` text, `aria-label`s on icon links, keyboard-reachable controls, a contact form with required-field validation, a horizontally scrollable table on small screens, and a `prefers-reduced-motion` guard that disables the glow, hover transitions, and smooth scrolling for users who request calmer motion.
+- **Type contrast** — bold Montserrat headings against light Roboto body text; the mental map uses three clear tiers.
+- **Layered surfaces** — alternating white and tinted section backgrounds, gradient page headers, a soft hero wash, and a radial ambient wash behind the mental map.
+- **Living focal point** — the mental map's center node carries a slow, contained breathing glow behind its label.
+- **Semantic color** — the usability report uses red / amber / green severity chips tuned to the site's existing palette.
+- **Accessibility** — descriptive `alt` text, `aria-label`s on icon links, keyboard-reachable controls, a horizontally scrollable table on small screens, and a `prefers-reduced-motion` guard.
 - **A small easter egg** — open the browser console to find a friendly developer note.
 
 ## Run It Locally
